@@ -3,13 +3,16 @@ import MyAccount from "./profile/my-account";
 import Menu from "./menu/menu";
 import Language from "./language/language";
 
+import "./header.scss";
+import logo from "./../../assets/logo.svg"
+
+
+
 const Header = () => {
     return (
-        <div>
-            <div>
-                <img src="" alt=""/>
-            </div>
-            <div>
+        <div className="header-wrapper">
+            <div className="block-with-logo">
+                <img src={logo} alt=""/>
                 <Language />
             </div>
             <div>

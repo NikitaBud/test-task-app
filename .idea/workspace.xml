@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfe0b80-5dea-4dbb-91ff-035bc04e19fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/content/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/filter/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/new-listings/new-listings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/news/news.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/content/on-sale/on-sale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/language/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/menu/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/profile/my-account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Combined shape 7136.1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/account.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/balance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shape1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/language/language.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/menu/menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/profile/my-account.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/language/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/language/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/profile/my-account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/profile/my-account.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +31,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YkxhB9K5pdZjNWiu9Z0GOV9luH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -82,12 +89,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583500509781</updated>
-      <workItem from="1583500515372" duration="5367000" />
+      <workItem from="1583500515372" duration="9049000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583504962810">
