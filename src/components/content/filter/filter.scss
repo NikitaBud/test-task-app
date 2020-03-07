@@ -1,0 +1,31 @@
+.filter-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+
+  .btn-filter {
+    width: 212px;
+    height: 30px;
+    margin-bottom: 13px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    color: #C4C4C4;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5em 1em;
+
+    &:active {
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background-color: rgba(0, 0, 0, 0.0001);
+    }
+
+    &:hover,
+    &:focus {
+      color: white;
+      border-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(0, 0, 0, 0.0001);
+    }
+  }
+}
