@@ -1,5 +1,20 @@
 .App {
   display: grid;
   grid-template-rows: 1fr 4fr 1fr;
-  background-color: #0B0C23;
+}
+
+.container {
+  margin: 0 auto;
+  @media (min-width: 1400px) {
+    max-width: 1379px; 
+  }
+  @media (max-width: 1024px) {
+    max-width: 964px;
+  }
+  @media (max-width: 768px) {
+    max-width: 709px;
+  }
+  @media (max-width: 420px) {
+    max-width: 397px;
+  }
 }

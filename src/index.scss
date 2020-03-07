@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 body {
   margin: 0;
   font-family: 'Exo', sans-serif;
   color: #ffffff;
+  background-color: #0B0C23;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn {
+  @include button-reset;
+  display: inline-block;
+  text-decoration: none;
+  border: solid 1px transparent;
+  outline: none;
 }
