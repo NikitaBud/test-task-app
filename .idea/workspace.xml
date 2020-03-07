@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfe0b80-5dea-4dbb-91ff-035bc04e19fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/content/filter/filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/content/on-sale/on-sale.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/filter/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/filter/filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/on-sale/on-sale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/on-sale/on-sale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/base" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/base" />
       <recent name="$PROJECT_DIR$/src/components/content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583500509781</updated>
-      <workItem from="1583500515372" duration="13725000" />
+      <workItem from="1583500515372" duration="17185000" />
     </task>
     <servers />
   </component>
