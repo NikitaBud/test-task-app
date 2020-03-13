@@ -10,18 +10,21 @@ import logo from "./../../assets/logo.svg"
 
 const Header = () => {
     return (
-        <div className="header-wrapper">
-            <div className="block-with-logo">
-                <img src={logo} alt=""/>
-                <Language />
+        <div className="header">
+            <div className="header-container">
+                <div className="header-body">
+                    <div className="block-with-logo">
+                        <a href="#"><img src={logo} alt=""/></a>
+                        <Language/>
+                    </div>
+                    <div>
+                        <Menu/>
+                    </div>
+                    <div>
+                        <MyAccount/>
+                    </div>
+                </div>
             </div>
-            <div>
-                <Menu />
-            </div>
-            <div>
-                <MyAccount />
-            </div>
-
         </div>
     )
 }

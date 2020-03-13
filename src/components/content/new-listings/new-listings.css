@@ -1,0 +1,44 @@
+.listings-items-block {
+  overflow: scroll;
+}
+
+.new-listings-items {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.new-listings-items .new-listings-item {
+  width: 216px;
+  height: 216px;
+  margin-bottom: 27px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.new-listings-items .new-listings-item .new-listings-item-container {
+  width: 187px;
+  height: 203px;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+}
+.new-listings-items .new-listings-item .new-listings-item-container img {
+  align-self: center;
+  padding-bottom: 19px;
+}
+.new-listings-items .new-listings-item .new-listings-item-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-listings-items .new-listings-item .new-listings-item-container p {
+  margin: 0;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+.new-listings-items .new-listings-item .new-listings-item-container b {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #00A651;
+}
+
+/*# sourceMappingURL=new-listings.css.map */

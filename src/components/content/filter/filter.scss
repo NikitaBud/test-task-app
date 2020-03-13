@@ -1,6 +1,7 @@
 .filter-items {
   margin: 0;
   padding: 0;
+  overflow: scroll;
   list-style: none;
   display: grid;
 
@@ -14,7 +15,26 @@
     color: #C4C4C4;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 0.5em 1em;
+    position: relative;
 
+
+    &:before,
+    &:after {
+      content: '';
+      width: 8px;
+      height: 1px;
+      background-color: #C4C4C4;
+      position: absolute;
+      top: 14px;
+    }
+    &:before {
+      transform: rotate(40deg);
+      right: 15px;
+    }
+    &:after {
+      transform: rotate(-40deg);
+      right: 10px;
+    }
     &:active {
       color: white;
       border: 1px solid rgba(255, 255, 255, 0.1);

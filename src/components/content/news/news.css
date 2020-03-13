@@ -1,0 +1,22 @@
+.news-block {
+  margin-right: 89px;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: scroll;
+  width: 209px;
+  height: 699px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.news-container .news-items {
+  padding-top: 46.89px;
+}
+.news-container .news-items:last-child {
+  padding-bottom: 58.3px;
+}
+
+/*# sourceMappingURL=news.css.map */

@@ -1,0 +1,160 @@
+.my-account-menu a {
+  text-decoration: none;
+}
+
+.my-account-menu li {
+  position: relative;
+  list-style: none;
+  font-size: 14px;
+}
+
+.user-menu {
+  display: flex;
+}
+
+.user-menu-item {
+  display: flex;
+  align-items: center;
+}
+.user-menu-item b {
+  padding-left: 10px;
+}
+
+.user-menu > li {
+  margin: 0px 36.46px 0px 0px;
+}
+
+.user-menu > li > span {
+  display: none;
+}
+
+.user-menu > li:hover .sub-user-menu {
+  display: block;
+}
+
+.sub-user-menu {
+  min-width: 412px;
+  position: absolute;
+  top: 20px;
+  left: -350px;
+  padding: 20px 0 0 0;
+}
+
+.sub-user-menu > li {
+  background-color: rgba(23, 24, 46, 0.98);
+}
+.sub-user-menu > li h3 {
+  font-size: 16px;
+  align-items: center;
+  padding: 24px 15px;
+}
+.sub-user-menu > li .btn-sub-user-menu {
+  min-width: 83px;
+  height: 30px;
+  margin-right: 15px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  color: #C4C4C4;
+  background-color: rgba(11, 12, 35, 0.8);
+}
+.sub-user-menu > li .btn-sub-user-menu:active {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+.sub-user-menu > li .btn-sub-user-menu:hover, .sub-user-menu > li .btn-sub-user-menu:focus {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+.sub-user-menu > li:first-child {
+  border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+}
+
+.sub-user-menu > li:last-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.product-items-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+}
+
+.product-items-menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16.78px;
+  padding-bottom: 12px;
+}
+.product-items-menu li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 14px;
+}
+.product-items-menu li div .item-price-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.product-items-menu li .btn-card {
+  width: 63px;
+  height: 63px;
+  margin-left: 15px;
+  padding: 0;
+  background-color: rgba(11, 12, 35, 0.2);
+  border: none;
+}
+.product-items-menu li .btn-card .delete {
+  display: none;
+}
+.product-items-menu li .btn-card:hover {
+  background: rgba(0, 0, 0, 0.0001);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.product-items-menu li .btn-card:hover .item-img {
+  display: none;
+}
+.product-items-menu li .btn-card:hover .delete {
+  display: block;
+  margin: auto auto;
+}
+.product-items-menu li .btn-card img {
+  padding: 17px;
+}
+
+.sub-sub-billing-menu {
+  display: none;
+  min-width: 412px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #17182E;
+}
+
+/*div {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+  margin-right: 14px;
+
+  b {
+    padding-left: 8px;
+  }
+
+  span {
+    display: none;
+  }
+} */
+
+/*# sourceMappingURL=my-account.css.map */

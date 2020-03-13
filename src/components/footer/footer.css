@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .social-network .btn {
+  margin-right: 12px;
+}
+.footer-container .social-network .btn img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,47 @@
+.filter-items {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  list-style: none;
+  display: grid;
+}
+.filter-items .btn-filter {
+  width: 212px;
+  height: 30px;
+  margin-bottom: 13px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  color: #C4C4C4;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.5em 1em;
+  position: relative;
+}
+.filter-items .btn-filter:before, .filter-items .btn-filter:after {
+  content: "";
+  width: 8px;
+  height: 1px;
+  background-color: #C4C4C4;
+  position: absolute;
+  top: 14px;
+}
+.filter-items .btn-filter:before {
+  transform: rotate(40deg);
+  right: 15px;
+}
+.filter-items .btn-filter:after {
+  transform: rotate(-40deg);
+  right: 10px;
+}
+.filter-items .btn-filter:active {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+.filter-items .btn-filter:hover, .filter-items .btn-filter:focus {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+
+/*# sourceMappingURL=filter.css.map */

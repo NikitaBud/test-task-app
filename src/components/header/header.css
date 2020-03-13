@@ -5,13 +5,17 @@
   left: 0;
   z-index: 50;
 }
+
 .header-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 29px 0 31.41px;
 }
+
 .block-with-logo {
   display: flex;
   align-items: baseline;
 }
+
+/*# sourceMappingURL=header.css.map */
